@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bgu_aws",
-    version="0.0.1",
+    version="0.0.3",
     author="Assaf Arbelle",
     author_email="arbellea@post.bgu.ac.il",
     description="Utilities for AWS code managements",
@@ -19,4 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.5',
+    install_requires=['requests'],
 )
