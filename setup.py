@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="bgu-aws-utils",
+    name="bgu_aws",
     version="0.0.1",
     author="Assaf Arbelle",
     author_email="arbellea@post.bgu.ac.il",
