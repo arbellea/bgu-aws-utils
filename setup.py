@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bgu_aws",
-    version="0.0.3",
+    version="0.0.4",
     author="Assaf Arbelle",
     author_email="arbellea@post.bgu.ac.il",
     description="Utilities for AWS code managements",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://https://github.com/arbellea/bgu-aws-utils",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
